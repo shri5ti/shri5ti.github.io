@@ -3,37 +3,38 @@
     <style>
         html,
         body {
-            padding: 0;
             margin: 0;
-            background: linear-gradient(#000,#545454,#777777,#545454,#000);
-            color: white;
         }
 
-        main {
-            margin: 0 auto;
-            width: 90%;
-            border: 1px solid white;
-            min-height: 80%;
-            background-color: white;
-            color: black;
-            padding: 10px;
+        * {color: #0f0f0f;}
+
+        nav {
+            background: linear-gradient(#00abff, aliceblue, #00abff);
+            padding: 2px 5px;
+            margin-bottom: 10px;
         }
     </style>
 </head>
 
 <body>
+    <nav>
+        <h2>Shri5ti blog</h2>
+    </nav>
     <main>
         {{content}}
+        {% if(site.posts) %}
+        <h3>Posts</h3>
+        <ul>
+            {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
     </main>
-    <ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
     <footer>
-        <div style="background-color: beige;">
+        <div>
             <h4>Footer</h4>
         </div>
     </footer>
