@@ -1,4 +1,6 @@
-
+---
+title: Home
+---
 Welcome to shri5ti's blog site.
 
 **Things to note**
