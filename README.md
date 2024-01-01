@@ -1,4 +1,9 @@
-# Home Sweet Home
+---
+title: Home Sweet Home
+---
 
 Welcome to shri5ti's blog site.
-No support for front matter.
+
+**Things to note**
+
+- No support for front matter?
