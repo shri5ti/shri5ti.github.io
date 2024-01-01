@@ -1,11 +1,2 @@
 title: Shri5ti
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-header_pages:
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - update_boostrap.sh
 show_excerpts: true
