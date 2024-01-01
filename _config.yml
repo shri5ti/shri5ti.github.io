@@ -1,2 +1,9 @@
 title: Shri5ti
 show_excerpts: true
+relative_links: 
+  enabled: true
+  collections: true
+include:
+  - index.md
+  - readme.md
+  - about-us.md

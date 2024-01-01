@@ -1,5 +1,15 @@
-<head><title>{{page.title}}</title></head>
+<head>
+    <title>{{page.title}}</title>
+</head>
 
-<h1 style="color:dodgerblue">{{page.title}}</h1>
-
-{{content}}
+<body>
+    <h1 style="color:dodgerblue">
+        {{page.title}}
+    </h1>
+    <main>
+        {{content}}
+    </main>
+    <footer>
+        <div style="background-color: beige;"></div>
+    </footer>
+</body>
