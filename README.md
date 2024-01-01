@@ -1,8 +1,6 @@
 ---
 title: Home
-layout: none
 ---
-
 
 # Home Sweet Home
 
