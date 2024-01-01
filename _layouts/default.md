@@ -22,9 +22,6 @@
 </head>
 
 <body>
-    <h1 style="color:dodgerblue">
-        {{page.title}}
-    </h1>
     <main>
         {{content}}
     </main>
